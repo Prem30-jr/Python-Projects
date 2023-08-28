@@ -1,7 +1,8 @@
 # Python-Projects
 Python script that sends an email using the Simple Mail Transfer Protocol (SMTP) to Gmail's SMTP server. Here's a breakdown of what the code does:
 
-1.Import necessary modules:
+1.Import necessary modules:<img width="960" alt="Email sending" src="https://github.com/Prem30-jr/Python-Projects/assets/133520818/056b261d-7b7e-47af-81fc-a5f3fb050dc4">
+
 
 *smtplib: Provides the functionality to send emails using the SMTP protocol.
 *EmailMessage: A class from the email.message module used to construct email messages.
