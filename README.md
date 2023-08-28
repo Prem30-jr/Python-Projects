@@ -22,7 +22,7 @@ Python script that sends an email using the Simple Mail Transfer Protocol (SMTP)
 
 *It then initiates a secure TLS connection with starttls() to encrypt the communication.
 
-*The server.login() function is used to authenticate with the Gmail account (username: 'sk7962544@gmail.com', password: 'aocewqjxizgnkrlc').
+*The server.login() function is used to authenticate with the Gmail account (username: 'epremkumar24@gmail.com', password: 'nnzqtcbskpbptkwm').
 
 *Finally, the server.send_message() function sends the email message, and upon success, it prints "Mail Sent successfully".
 
