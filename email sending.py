@@ -3,8 +3,8 @@ from email.message import EmailMessage
 
 # Set up the message object
 msg = EmailMessage()
-msg["From"] = "sk7962544@gmail.com"
-msg["To"] = "epremkumar24@gmail.com"
+msg["From"] = "epremkumar24@gmail.com"
+msg["To"] = "sk7962544@gmail.com"
 msg["CC"] = "prem3010057@gmail.com"  # Replace with the email address to CC
 msg["BCC"] = "premkumar301005@gmail.com"  # Replace with the email address to BCC
 msg["Subject"] = "Test Email"
@@ -16,7 +16,7 @@ msg.set_content("Hello,\n\nThis is a test email from Python.")
 try:
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
-    server.login('sk7962544@gmail.com', 'aocewqjxizgnkrlc')
+    server.login('epremkumar24@gmail.com', 'nnzqtcbskpbptkwm')
     server.send_message(msg)
     print("Mail Sent successfully")
 except Exception as e:
